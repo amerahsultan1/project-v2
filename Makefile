@@ -11,7 +11,8 @@ pull:
 	docker pull node:lts-alpine3.10 
 	docker pull bryandollery/maven-repo 
 	docker pull adoptopenjdk/openjdk11:alpine
-
+install:
+	./install.sh
 up:
 	docker-compose up -d
 
