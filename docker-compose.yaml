@@ -5,7 +5,7 @@ services:
     image: main-server
     build: ./project-assessment-site
     ports:
-      - "8080:80"
+      - "80:80"
   role-server:
     container_name: role-server
     image: role-server
