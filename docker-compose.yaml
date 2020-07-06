@@ -1,0 +1,32 @@
+version: '3.5'
+services:
+  main-server:
+    container_name: main-server
+    image: main-server
+    build: ./project-assessment-site
+    ports:
+      - "8080:80"
+  role-server:
+    container_name: role-server
+    image: role-server
+    build: ./role-service
+    ports: 
+      - "8082:80"
+  person-server:
+    container_name: person-server
+    image: person-server
+    build: ./person-service
+    ports:
+      - "8081:80"
+  department-server:
+    container_name: department-server
+    image: department-server
+    build: ./department-service
+    ports:
+      - "8083:80"
+  office-server:
+    container_name: office-server
+    image: office-server
+    build: ./office-service
+    ports:
+      - "8084:80" 
