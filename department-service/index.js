@@ -28,7 +28,7 @@ app.get("/department", (req, res) => {
     ]);
 });
 
-app.listen(80, () => {
+app.listen(8083, () => {
     console.log("Departments service running on port 80");
 });
 
