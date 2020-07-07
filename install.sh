@@ -6,4 +6,3 @@ sudo curl -L "https://github.com/docker/compose/releases/download/1.26.1/docker-
 sudo chmod +x /usr/local/bin/docker-compose
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmybash/oh-my-bash/master/tools/install.sh)" 
 reset
-sudo make project
